@@ -11,7 +11,7 @@ docker run -d \
 -e DB_TABLE='' \
 -e BOT_TOKEN='' \
 -e CHANNEL='' \
--e NUM_DELTA=1000 \
+-e NUM_DELTA=100 \
 --network host \
 deadlock/nodeos-monitor
 
